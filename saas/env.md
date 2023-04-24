@@ -1,3 +1,9 @@
+## APP_URL:
+This is an Important Variable, 
+Your site url, make sure to add `https://` or `http://` at the beginging. and make sure it doesn't point to a pathname
+ex: `https://example.com` or `https://www.example.com/`
+
+
 ## DATABASE_URL
 
 - Make a database using [Railway](https://railway.app)
@@ -42,3 +48,21 @@ GOOGLE_CLIENT, GOOGLE_SECRET
         
     5.  Click Create.
     6.  Copy the client ID and secret that display and store them in a file.
+
+
+
+
+# Email Service
+### **EMAIL_FROM:**
+email that will send the emails. ex: `Support@example.com`
+
+### **EMAIL_SERVER_USER:**
+email username. ex: `Support123
+
+### **EMAIL_SERVER_PASSWORD:**
+email password. ex: `Password123`
+
+### **EMAIL_SERVICE:** 
+The email server url, ex: `smtp.zoho.eu:465`
+You need to follow a specific form `URL:PORT`.
+
